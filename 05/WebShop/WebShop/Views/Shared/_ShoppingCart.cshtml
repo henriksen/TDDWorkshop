@@ -1,0 +1,14 @@
+﻿<h2>Shopping cart</h2>
+<ul>
+@foreach(var product in WebShop.Models.ShoppingCart.Current) {
+    <li>@product.Name - @String.Format("{0:F}", product.Price)</li>
+}
+</ul>
+<p>
+<strong>Total: @String.Format("{0:F}", WebShop.Models.ShoppingCart.Current.Total)</strong>
+</p>
+@using (@Html.BeginForm("ClearCart", "Shop"))
+{
+    <input type=submit value="Clear cart" />
+}
+                

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1000]C:\source\TDDWorkshop\05\WebShop\WebShopNunit.nunit</TopNode>
+  <SelectedNode>[0-1002]WebShop.AcceptanceTests.Features.AddingProductsToTheShoppingCartFeature.AddAProductToTheCart</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]C:\source\TDDWorkshop\05\WebShop\WebShopNunit.nunit" Expanded="true" />
+    <Node UniqueName="[0-1003]C:\source\TDDWorkshop\05\WebShop\WebShop.AcceptanceTests\bin\Debug\WebShop.AcceptanceTests.dll" Expanded="true" />
+    <Node UniqueName="[0-1004]WebShop" Expanded="true" />
+    <Node UniqueName="[0-1005]WebShop.AcceptanceTests" Expanded="true" />
+    <Node UniqueName="[0-1006]WebShop.AcceptanceTests.Features" Expanded="true" />
+    <Node UniqueName="[0-1001]WebShop.AcceptanceTests.Features.AddingProductsToTheShoppingCartFeature" Expanded="true" />
+  </Nodes>
+</VisualState>

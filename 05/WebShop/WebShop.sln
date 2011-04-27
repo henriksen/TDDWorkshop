@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop", "WebShop\WebShop.csproj", "{EB9F88BD-701D-4442-B229-6D816D30A544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop.AcceptanceTests", "WebShop.AcceptanceTests\WebShop.AcceptanceTests.csproj", "{91C4C1AE-1A3F-4477-87DA-F0448168E057}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB9F88BD-701D-4442-B229-6D816D30A544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB9F88BD-701D-4442-B229-6D816D30A544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB9F88BD-701D-4442-B229-6D816D30A544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB9F88BD-701D-4442-B229-6D816D30A544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91C4C1AE-1A3F-4477-87DA-F0448168E057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91C4C1AE-1A3F-4477-87DA-F0448168E057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91C4C1AE-1A3F-4477-87DA-F0448168E057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91C4C1AE-1A3F-4477-87DA-F0448168E057}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

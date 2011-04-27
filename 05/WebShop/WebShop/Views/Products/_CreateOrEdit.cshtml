@@ -1,0 +1,28 @@
+@model WebShop.Models.Product
+
+@* This partial view defines form fields that will appear when creating and editing entities *@
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.Name)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model.Name)
+    @Html.ValidationMessageFor(model => model.Name)
+</div>
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.Price)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model.Price)
+    @Html.ValidationMessageFor(model => model.Price)
+</div>
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.InStock)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model.InStock)
+    @Html.ValidationMessageFor(model => model.InStock)
+</div>
+
