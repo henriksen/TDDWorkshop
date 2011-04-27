@@ -26,6 +26,7 @@ namespace RomanNumerals
 
         public string NumberToRoman(int number)
         {
+            if (number > 3999) throw new ArgumentOutOfRangeException();
             string roman = "";
             int myNumber = number;
             foreach (var item in _lookup)

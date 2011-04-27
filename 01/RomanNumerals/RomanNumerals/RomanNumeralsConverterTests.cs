@@ -28,6 +28,13 @@ namespace RomanNumerals {
             Assert.AreEqual(expected, result);
         }
 
+        [Test]
+        [ExpectedException(typeof(ArgumentOutOfRangeException))]
+        public void Number_greater_than_3999_should_thow_exception()
+        {
+            var romNum = new RomanNumeralsConverter();
+            romNum.NumberToRoman(4000);
+        }
 
     }
 }
