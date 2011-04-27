@@ -55,6 +55,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="INotify.cs" />
+    <Compile Include="OrderProcessorTests.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="OrderProcessor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
