@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowDemo.Site", "SpecFlowDemo.Site.csproj", "{3E5A000D-8ECB-4C13-9494-74957450A7D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowDemo.UnitTests", "..\SpecFlowDemo.UnitTests\SpecFlowDemo.UnitTests.csproj", "{699F0181-0DB5-40F2-893E-6CB1672B93B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowDemo.AcceptanceTests", "..\SpecFlowDemo.AcceptanceTests\SpecFlowDemo.AcceptanceTests.csproj", "{D85F27EB-61EB-422C-A1D8-5A054EB92D26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{901C276E-52CF-4CF8-B464-0609192DCF10}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		SpecFlowDemo.Site.vsmdi = SpecFlowDemo.Site.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowDemo.Core", "..\SpecFlowDemo.Core\SpecFlowDemo.Core.csproj", "{75F63D2C-D12C-4B0C-8245-EBB37ECC4C0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowDemo.Infrastructure", "SpecFlowDemo.Infrastructure\SpecFlowDemo.Infrastructure.csproj", "{A26990B6-884F-4A8C-9F19-EBC84E1C5409}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = SpecFlowDemo.Site.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E5A000D-8ECB-4C13-9494-74957450A7D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5A000D-8ECB-4C13-9494-74957450A7D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5A000D-8ECB-4C13-9494-74957450A7D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5A000D-8ECB-4C13-9494-74957450A7D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{699F0181-0DB5-40F2-893E-6CB1672B93B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{699F0181-0DB5-40F2-893E-6CB1672B93B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{699F0181-0DB5-40F2-893E-6CB1672B93B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{699F0181-0DB5-40F2-893E-6CB1672B93B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D85F27EB-61EB-422C-A1D8-5A054EB92D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85F27EB-61EB-422C-A1D8-5A054EB92D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85F27EB-61EB-422C-A1D8-5A054EB92D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85F27EB-61EB-422C-A1D8-5A054EB92D26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F63D2C-D12C-4B0C-8245-EBB37ECC4C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F63D2C-D12C-4B0C-8245-EBB37ECC4C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F63D2C-D12C-4B0C-8245-EBB37ECC4C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F63D2C-D12C-4B0C-8245-EBB37ECC4C0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A26990B6-884F-4A8C-9F19-EBC84E1C5409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26990B6-884F-4A8C-9F19-EBC84E1C5409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26990B6-884F-4A8C-9F19-EBC84E1C5409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A26990B6-884F-4A8C-9F19-EBC84E1C5409}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
