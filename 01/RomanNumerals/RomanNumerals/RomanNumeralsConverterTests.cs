@@ -10,6 +10,10 @@ namespace RomanNumerals {
         [TestCase(2, "II")]
         [TestCase(3, "III")]
         [TestCase(4, "IV")]
+        [TestCase(5, "V")]
+        [TestCase(6, "VI")]
+        [TestCase(7, "VII")]
+        [TestCase(8, "VIII")]
         public void Should_Convert_Number_to_Roman(int number, string expected)
         {
             var romNum = new RomanNumeralsConverter();
