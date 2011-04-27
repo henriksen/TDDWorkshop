@@ -5,9 +5,9 @@ namespace WebShop.AcceptanceTests.StepHelpers
 {
     public class LogOn
     {
-        public void LogOn()
+        public static void PerformLogon()
         {
-            WebBrowser.Current.GoTo("http://localhost:3542/Account/LogOn");
+            WebBrowser.Current.GoTo("http://localhost:50000/Account/LogOn");
 
             WebBrowser.Current.TextField(Find.ByName("UserName")).TypeText("admin");
             WebBrowser.Current.TextField(Find.ByName("Password")).TypeText("123123");

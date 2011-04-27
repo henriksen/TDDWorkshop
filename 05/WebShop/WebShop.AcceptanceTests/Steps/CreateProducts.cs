@@ -1,4 +1,5 @@
 using TechTalk.SpecFlow;
+using WebShop.AcceptanceTests.StepHelpers;
 
 namespace WebShop.AcceptanceTests.Steps
 {
@@ -10,7 +11,7 @@ namespace WebShop.AcceptanceTests.Steps
         [Given(@"The product")]
         public void GivenTheProduct(Table table)
         {
-            ScenarioContext.Current.Pending();
+            LogOn.PerformLogon();
         }
     }
 }

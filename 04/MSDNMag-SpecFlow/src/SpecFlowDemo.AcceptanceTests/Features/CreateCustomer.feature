@@ -5,7 +5,7 @@
 
 Scenario: Create a basic customer record
 	Given I am logged into the site as an administrator
-	When I click the "Create New Customer" link
+	When I click the "Create New Customer" link 
 	And I enter the following information
 		| Field | Value                       |
 		| Name  | Hugo Reyes                  |
