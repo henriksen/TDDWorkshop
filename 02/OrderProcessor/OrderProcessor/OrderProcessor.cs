@@ -13,6 +13,8 @@ namespace OrderProcessorSample
 
         public void Ship(Order order)
         {
+          if (order.NotifyCustomerOfShipment)   _notify.Notify(order);
+
         }
     }
 }
