@@ -14,6 +14,13 @@ namespace RomanNumerals {
         [TestCase(6, "VI")]
         [TestCase(7, "VII")]
         [TestCase(8, "VIII")]
+        [TestCase(9, "IX")]
+        [TestCase(10, "X")]
+        [TestCase(13, "XIII")]
+        [TestCase(33, "XXXIII")]
+        [TestCase(49, "ILIX")]
+        [TestCase(50, "L")]
+        [TestCase(3888, "MMMDCCCLXXXVIII")]
         public void Should_Convert_Number_to_Roman(int number, string expected)
         {
             var romNum = new RomanNumeralsConverter();

@@ -7,15 +7,35 @@ namespace RomanNumerals
 {
     public class RomanNumeralsConverter
     {
+        Dictionary<int, string> _lookup = new Dictionary<int, string>
+                                              {
+                                                  {1000, "M"}, 
+                                                  {900, "CM"}, 
+                                                  {500, "D"}, 
+                                                  {400, "CD"}, 
+                                                  {100, "C"}, 
+                                                  {90, "XC"}, 
+                                                  {50, "L"}, 
+                                                  {40, "IL"},
+                                                  {10, "X"},
+                                                  {9, "IX"},
+                                                  {5, "V"},
+                                                  {4, "IV"},
+                                                  {1, "I"},
+                                              };
+
         public string NumberToRoman(int number)
         {
-
-            if (number == 8) return "VIII";
-            if (number == 7) return "VII";
-            if (number == 6) return "VI";
-            if (number == 5) return "V";
-            if (number == 4) return "IV";
-            var roman = new string('I', number);
+            string roman = "";
+            int myNumber = number;
+            foreach (var item in _lookup)
+            {
+                while (myNumber >= item.Key)
+                {
+                    roman += item.Value;
+                    myNumber -= item.Key;
+                }
+            }
             return roman;
          
         }
