@@ -64,6 +64,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Features\AddProductToCart.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AddProductToCart.feature</DependentUpon>
+    </Compile>
     <Compile Include="Features\ShoppingCart.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -72,13 +77,20 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StepHelpers\LogOn.cs" />
     <Compile Include="StepHelpers\WebBrowser.cs" />
+    <Compile Include="Steps\BrowseShop.cs" />
+    <Compile Include="Steps\ClickAddToCart.cs" />
     <Compile Include="Steps\CreateProducts.cs" />
     <Compile Include="Steps\ShoppingCart.cs" />
     <Compile Include="Steps\SiteNavigation.cs" />
+    <Compile Include="Steps\VerifyCartContent.cs" />
     <Compile Include="Steps\WebShopInteraction.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Features\AddProductToCart.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>AddProductToCart.feature.cs</LastGenOutput>
+    </None>
     <None Include="Features\ShoppingCart.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>ShoppingCart.feature.cs</LastGenOutput>

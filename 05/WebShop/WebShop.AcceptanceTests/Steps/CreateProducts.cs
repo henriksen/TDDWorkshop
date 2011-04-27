@@ -11,7 +11,6 @@ namespace WebShop.AcceptanceTests.Steps
         [Given(@"The product")]
         public void GivenTheProduct(Table table)
         {
-            LogOn.PerformLogon();
         }
     }
 }
